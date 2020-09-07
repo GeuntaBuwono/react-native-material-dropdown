@@ -74,7 +74,6 @@ export default class Dropdown extends PureComponent {
       'landscape-left',
       'landscape-right',
     ],
-
     useNativeDriver: false,
   };
 
@@ -299,7 +298,7 @@ export default class Dropdown extends PureComponent {
             .timing(opacity, {
               duration: animationDuration,
               toValue: 1,
-              useNativeDriver,
+              useNativeDriver: false,
             })
             .start(() => {
               if (this.mounted && 'ios' === Platform.OS) {
@@ -308,8 +307,7 @@ export default class Dropdown extends PureComponent {
                 if ('function' === typeof flashScrollIndicators) {
                   flashScrollIndicators.call(this.scroll);
                 }
-              },
-              useNativeDriver: false
+              }
             });
         }
       }), delay);
@@ -324,7 +322,7 @@ export default class Dropdown extends PureComponent {
       .timing(opacity, {
         duration: animationDuration,
         toValue: 0,
-        useNativeDriver,
+        useNativeDriver: false,
       })
       .start(() => {
         this.focused = false;
@@ -335,8 +333,7 @@ export default class Dropdown extends PureComponent {
 
         if (this.mounted) {
           this.setState({ value, modal: false });
-        },
-        useNativeDriver: false
+        }
       });
   }
 

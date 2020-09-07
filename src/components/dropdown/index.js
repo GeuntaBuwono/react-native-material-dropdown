@@ -308,7 +308,8 @@ export default class Dropdown extends PureComponent {
                 if ('function' === typeof flashScrollIndicators) {
                   flashScrollIndicators.call(this.scroll);
                 }
-              }
+              },
+              useNativeDriver: false
             });
         }
       }), delay);
@@ -334,7 +335,8 @@ export default class Dropdown extends PureComponent {
 
         if (this.mounted) {
           this.setState({ value, modal: false });
-        }
+        },
+        useNativeDriver: false
       });
   }
 

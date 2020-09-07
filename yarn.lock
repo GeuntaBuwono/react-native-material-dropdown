@@ -95,17 +95,10 @@
     prop-types "^15.5.9"
     react-native-material-ripple "^0.9.1"
 
-"@softmedialab/react-native-material-textfield@^0.16.21":
-  version "0.16.21"
-  resolved "https://registry.yarnpkg.com/@softmedialab/react-native-material-textfield/-/react-native-material-textfield-0.16.21.tgz#7617d8c4694b3c62e7d1124065b270ff740529aa"
-  integrity sha512-AhjrhMPqdo3jAZr5dQB2FtYNTesRZdvFlTXlAk1sboZ75Yv+5f6GM6d4QfkCGCo+p3kuJCXjx5Qo4Tx08vLDVQ==
-  dependencies:
-    prop-types "^15.5.9"
-
-"@ubaids/react-native-material-textfield@^0.16.3":
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/@ubaids/react-native-material-textfield/-/react-native-material-textfield-0.16.3.tgz#8e03b850cda014855ef0790aabd57b9a7be69a13"
-  integrity sha512-Mqg2T/ib6SCLXE2xGlHEiptRFLcHyjCd7pm+Hv3+r5lin/InEYcemD07nea1x2rsf2HMcSaAmOAgwqOEM1lAgw==
+"@geuntabuwono/react-native-material-textfield@^0.16.21":
+  version "0.16.22"
+  resolved "https://registry.yarnpkg.com/@geuntabuwono/react-native-material-textfield/-/react-native-material-textfield-0.16.22.tgz#7d871424a7501f8bfd1844d40ec1b4c742c62b3d"
+  integrity sha512-K19gwkjDTSZfeuENcvtIhecNX2aOZOJFv3pLoWQX9LQggRH9nX2CCgKXU7VlX2bP1G0OsLIgdzMn8HlGkMea/Q==
   dependencies:
     prop-types "^15.5.9"
 
